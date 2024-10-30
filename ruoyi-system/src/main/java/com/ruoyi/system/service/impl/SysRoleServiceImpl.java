@@ -45,6 +45,12 @@ public class SysRoleServiceImpl implements ISysRoleService
     @Autowired
     private SysRoleDeptMapper roleDeptMapper;
 
+    @Override
+    public int insertDefaultRole(Long userId) {
+
+        return userRoleMapper.insertDefaultRole(userId);
+
+    }
     /**
      * 根据条件分页查询角色数据
      * 
