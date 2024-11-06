@@ -143,3 +143,6 @@ xss:
   excludes: /system/notice
   # 匹配链接
   urlPatterns: /system/*,/monitor/*,/tool/*
+api:
+  bearer:
+    token: 'app-ZJIcpi9DgtU5A1rCTF9O9B2K'
